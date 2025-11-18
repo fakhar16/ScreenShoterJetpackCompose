@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <ImageButton
+        android:id="@+id/overlayCaptureButton"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@drawable/overlay_button_background"
+        android:contentDescription="@string/button_save_capture"
+        android:scaleType="center"
+        android:src="@drawable/ic_capture" />
+
+</FrameLayout>
+
